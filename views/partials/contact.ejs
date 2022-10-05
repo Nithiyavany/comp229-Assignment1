@@ -1,0 +1,29 @@
+<div class="container-fluid bg-dark">
+    <form>
+            <fieldset id="contactinfo" class="text">
+            <p>
+               Please complete all the fields below:</p>
+                <label for="firstnameinput">
+                    First Name:<input type="text" id="firstnameinput" required="required" placeholder="first name" />
+                </label>
+                <label for="lastnameinput">
+                    Last Name:<input type="text" id="lastnameinput" required="required" placeholder="last name" />
+                </label>
+                <label for="addressinput">
+                    Address:<input type="text" id="addressinput" name="address" required="required" placeholder="address" />
+                </label>
+                <label for="cityinput">
+                    City:<input type="text" id="cityinput" name="city"required="required" placeholder="city" />
+                </label>
+                        
+                <label for="email">
+                    Email:<input type="text" id="email" name="email" required="required" placeholder="address@example.com" />
+                </label>   
+                 <span id="cpassworderror"></span>					
+            
+                <input id="Submit" type="submit" value="Submit Now" />
+                <input id="clear" type="reset" onclick="clearForm()" value="Clear Form" />
+            </fieldset>
+        
+    </form>
+</div>
